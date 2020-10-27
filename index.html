@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency $$$</title>
+    <link rel="stylesheet" href="CSS/MyCss.css">
+</head>
+
+<body onload="CallAip()">
+<main>
+    <div class="topnav">
+        <img src="IMG/logo.png" alt="logo"/>
+    </div>
+    <div class="Raits">
+        <table class="styled-table" id="table">
+            <tr>
+                  <th>Base</th>
+                  <th>Foreing</th>
+                  <th>Buy</th>
+                  <th>Sell</th>
+                </tr>
+
+        </table>
+    </div>
+    <footer>
+
+        <div class="Raits">
+
+            <h2>From UHA to </h2>
+
+            <form id="Form" class="styled-table">
+
+
+                <label>
+                <input type="number" id="TEXT" class="button" />
+                <input type="button" id="USD" value="USD" class="button" onclick="Convert(1)">
+                <input type="button" id="EUR" value="EUR" class="button" onclick="Convert(2)">
+                <input type="button" id="RUB" value="RUB" class="button" onclick="Convert(3)">
+                </label>
+                <h3 id="out"></h3>
+
+            </form>
+
+
+
+
+
+        </div>
+
+
+
+    </footer>
+    </main>
+</body>
+
+<script src="JS/MyJs.js"></script>
+
+</html>
